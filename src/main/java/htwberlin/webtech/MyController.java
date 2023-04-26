@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
-public class HelloController {
+public class MyController {
     @GetMapping(path = "/")
     public ModelAndView showOurPage() {
         return new ModelAndView("helloworld");
